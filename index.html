@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feed Aways</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/sweet-alert.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+<div class="header">
+    <div class="wrapper">
+        <span class="logotype"><img src="img/logo.png"></span>
+        <span class="links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#job">Download</a>
+          <a href="#contact">Contact</a>
+          <a href="https://www.freeprivacypolicy.com/live/f0b7ab31-c688-452b-8950-5c1e43b005e6" target="_blank">Privacy Policy</a>
+        </span>
+    </div>
+</div>
+<div class="small" id="home">
+    <div class="center">
+        <h1>The Smart Way to Care for Your Pets!</h1>
+        User-friendly mobile application designed to give you peace of mind when it comes to feeding your beloved cats and dogs.
+        <div class="image-row">
+            <img src="img/app1.png" alt="app1">
+            <img src="img/app2.png" alt="app2">
+            <img src="img/app3.png" alt="app3">
+            <img src="img/app4.png" alt="app4">
+        </div>
+    </div>
+</div>
+
+<div class="small" id="about">
+    <div class="wrapper">
+        <h2>About App</h2>
+        Key Features:<br>
+        - Automatic Feeding Control: Schedule and manage feeding times with ease, ensuring your pets are always well-fed. <br>
+        - Customizable Portions: Adjust meal sizes to suit your pet's needs. <br>
+        - Real-Time Notifications: Stay informed with updates on feeding times and device status. <br>
+        - Remote Access: Control your feeder from anywhere, anytime. <br><br>
+        With "Feed Aways", caring for your furry friends has never been easier. Download the app today and keep your pets happy, healthy, and well-fed, even when you're not home!
+    </div>
+</div>
+
+<div class="small" id="job">
+    <div class="wrapper">
+        <h2>Download now!</h2>
+        <a href="https://apps.apple.com/by/..." target="_blank">
+            <div class="single">
+                <img src="img/appstore-icon.png" alt="Feed Aways">
+                <span>Feed Aways</span>
+                <div class="single2">
+                    <a href="https://apps.apple.com/...">
+                    <img src="img/appstore.png" alt="Apple Store"></a>                  
+                </div>
+            </div>
+        </a>
+    </div>
+</div>  
+    
+<div class="small" id="contact">
+    <div class="wrapper">
+        <h2>SEND US A MESSAGE OR Call</h2>
+        <p> <a href="mailto:silviakz@yandex.kz">silviakz@yandex.kz</a></p>
+            <a href="tel:+77087718351">+7(708)771-83-51</a><br>
+    </div>
+</div>
+<div class="small copyright">
+    <div class="wrapper">
+        Feed Aways &copy; 2024
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/sweet-alert.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+    $('.slick').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
+</script>
+</body>
+</html>
